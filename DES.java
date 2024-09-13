@@ -4,8 +4,6 @@ import java.util.Base64;
 import java.security.spec.InvalidKeySpecException;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
-import java.security.NoSuchPaddingException;
-import java.security.spec.InvalidKeySpecException;
 
 public class DES {
     public static void main(String[] args) {
