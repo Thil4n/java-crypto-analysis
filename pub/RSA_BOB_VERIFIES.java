@@ -15,14 +15,14 @@ public class RSA_BOB_VERIFIES {
         String message = "This is a secret message from Alice.";
 
         // The signed message received (Base64 encoded)
-        String signedMessageBase64 = "Mmnldv4xUxQmu0gjGvWFkuYTe78GG0D4KeJ/yf4R6OGRHu7dz4umViUaXcYcr482CKTJTGhWpLSY0nWk/pk3VRF2KgvDAGejYLiOhoUxi2s9TWgiZsKX/Pzn+0FEAggUzmoh2z7SWnSlPgdVufKKb28/207TjQAB45Jco4g0iAumhHjnpG+JAeAlIN+TP24hr3LyajP6/CCimzk7l5gSDE/fviK66Oz0VQDPHeXXnpLnD03pHZDVD2h466LM4qJWRYJzhVXIV8Mkjb5Eyw3olK1IVQ3oJzD989WmP4/C53xhKzBfpwb2rv043gsPYZ1lxoZqKMtGvAjKo8GMDs6oGg=="; // Replace
-                                                                                                                                                                                                                                                                                                                                                                                                 // this
-                                                                                                                                                                                                                                                                                                                                                                                                 // with
-                                                                                                                                                                                                                                                                                                                                                                                                 // the
-                                                                                                                                                                                                                                                                                                                                                                                                 // actual
-                                                                                                                                                                                                                                                                                                                                                                                                 // signature
-                                                                                                                                                                                                                                                                                                                                                                                                 // from
-                                                                                                                                                                                                                                                                                                                                                                                                 // Alice
+        String signedMessageBase64 = ""; // Replace
+                                         // this
+                                         // with
+                                         // the
+                                         // actual
+                                         // signature
+                                         // from
+        // Alice
 
         // Decode the Base64-encoded signed message
         byte[] signedMessage = Base64.getDecoder().decode(signedMessageBase64);
