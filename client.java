@@ -13,6 +13,7 @@ public class client {
 
         try {
             Socket s = new Socket(HOST, PORT);
+
             PrintWriter out = new PrintWriter(s.getOutputStream(), true);
             out.println("Hello from client!");
 
