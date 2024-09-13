@@ -1,3 +1,5 @@
+package math;
+
 import java.math.BigInteger;
 
 public class totient {
